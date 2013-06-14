@@ -44,8 +44,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ShipController.cs" />
-     <Compile Include="Assets\ShipEffects.cs" />
+     <Compile Include="Assets\Scripts\Components\ContactDamage.cs" />
+     <Compile Include="Assets\Scripts\Components\Destructible.cs" />
+     <Compile Include="Assets\Scripts\Components\Health.cs" />
+     <Compile Include="Assets\Scripts\Components\Projectile.cs" />
+     <Compile Include="Assets\Scripts\Components\Shooter.cs" />
+     <Compile Include="Assets\Scripts\Entities\ShipController.cs" />
+     <Compile Include="Assets\Scripts\Entities\ShipEffects.cs" />
      <None Include="Assets\placeholder.txt.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
